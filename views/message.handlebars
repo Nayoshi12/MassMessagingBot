@@ -1,0 +1,18 @@
+<form action = "process_getB" method = "GET">
+  <label class = "text" for="sel1">Select Channel To Output Logs:</label>
+  <select class="form-control channel" id="channel-select" name ="channel">
+    {{{this.channel}}}
+  </select>
+  <label class = "text" for="sel1">Don't worry about this ;)</label>
+  <select class="form-control server" id="server-select" name ="server">
+    <option> {{this.server}} </option>
+  </select>
+  <label class = "text" for="sel1">Select Roles to Ignore:</label>
+  <select class="form-control role" id="role-select" name ="role">
+    <option> {{{this.role}}} </option>
+  </select>
+  <label class="control-label text" for="videoURL">Message here:</label>
+  <textarea class="inputBox form-control" rows = "5" name = "inputBox" placeholder="Type your message here!!"></textarea>
+  <input type="submit" value="Submit" class="submitBox btn btn-default"></input>
+
+</form>

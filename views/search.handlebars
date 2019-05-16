@@ -1,0 +1,25 @@
+<style>
+  .text{
+    color:white !important;
+  }
+  .inputBox{
+    margin-bottom: 20px;
+  }
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<div class="container">
+  <h1 class="text">Send Mass Message To Everyone On Discord! </h1>
+
+</div>
+<form action = "process_getA" method = "GET">
+
+  <div class="form-group">
+
+<select class="form-control server inputBox" id="server-select" name ="server">
+  {{{this.serverName}}}
+</select>
+
+    <input type="submit" value="Submit" class="submitBox btn btn-default"></input>
+ </form>
+</div>
